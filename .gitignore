@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# Keep the trained models + report figures/metrics in git so the demo runs
+# without a training step: models/ and reports/ are intentionally tracked.
